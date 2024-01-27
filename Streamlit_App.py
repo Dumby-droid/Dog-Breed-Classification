@@ -3,7 +3,7 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 import numpy as np
 
-model = load_model('Downloads/Dog Breed Classification.hdf5', compile=False)
+model = load_model('Downloads/Trained Model.hdf5', compile=False)
 
 st.title("Dog Breed Classifier")
 
